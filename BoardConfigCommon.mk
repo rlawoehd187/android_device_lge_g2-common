@@ -149,6 +149,9 @@ TARGET_LD_SHIM_LIBS := /system/vendor/lib/libqomx_jpegenc.so|libboringssl-compat
     /system/vendor/bin/mpdecision|libshim_atomic.so \
     /system/vendor/lib/libperipheral_client.so|libshim_binder.so
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Wi-Fi
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 WPA_SUPPLICANT_VERSION      := VER_0_8_X
