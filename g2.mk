@@ -264,6 +264,10 @@ PRODUCT_SHIPPING_API_LEVEL := 17
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-8974.conf:system/vendor/etc/thermal-engine-8974.conf
 
+# Encryption
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
