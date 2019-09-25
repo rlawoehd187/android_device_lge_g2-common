@@ -27,6 +27,9 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 TARGET_CPU_VARIANT_RUNTIME := krait
 
+# APEX
+TARGET_FLATTEN_APEX := true
+
 # Assertions
 TARGET_BOARD_INFO_FILE ?= device/lge/g2-common/board-info.txt
 
