@@ -112,7 +112,6 @@ BOARD_ROOT_EXTRA_FOLDERS := firmware mpt persist persist-lg sns
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/touch_gesture"
-TARGET_USES_INTERACTION_BOOST := true
 
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
